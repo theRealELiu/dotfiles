@@ -1,0 +1,1 @@
+tnoremap jk <Esc>

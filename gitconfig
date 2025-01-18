@@ -1,0 +1,21 @@
+[user]
+  name = Eric Liu
+  email = qingchuan.liu@foxmail.com
+[color]
+  ui = true
+[push]
+  default = matching
+[core]
+  editor = vim
+  pager = less -x4
+  autocrlf = false
+  safecrlf = true
+[alias]
+  plog = log --graph --full-history --all --pretty=format:\"%Cred%h%x09%C(cyan)%d%x20%Creset%s%Cblue<%C(yellow)%aN%Cblue>\"
+  diffc = diff --cached
+  ff = merge --ff-only
+  st = status
+[credential]
+  helper = cache --timeout 86400
+[merge]
+  tool = vimdiff
